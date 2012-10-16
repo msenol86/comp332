@@ -1,0 +1,13 @@
+Group Name: 666
+
+Group Members: Mücahit Şenol, Yusuf Özlü, Gülşah Küçükcan, Pınar Erdal, Ahmet Kokulu, Ataberk Aydoğdu
+
+Group Manager: Mücahit Şenol
+
+Project Topic: Turkish-English Dictionary for Blind People. 
+
+Project Description: User says the word then our program recognise the word, decide the language of word. Find the translation from database and pronounce it to user.
+
+https://istanbul-bilgi-university2.podio.com/simple-project-management/item/19638481
+
+https://github.com/msenol86/comp332
