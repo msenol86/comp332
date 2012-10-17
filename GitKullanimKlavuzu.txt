@@ -8,6 +8,10 @@ Bir git depolama alaný almak için ;
 
 $ git init
 
+Üzerinde deðiþiklik yapmak için zaten olan "grit" isimli bir dosyayý çekmek için ;
+
+$ git clone git://github.com/schacon/grit.git
+
 Hangi dosyalarda deðiþiklik yapýlmýþ görmek için ;
 
 $ git status 
@@ -23,13 +27,8 @@ $ git commit -m(mesaj anlamýna geliyor.) 'initial project version' (initial proj
 ***-m(mesaj anlamýna geliyor.)
 ***
 
-
-Üzerinde deðiþiklik yapmak için zaten olan "grit" isimli bir dosyayý çekmek için ;
-
-$ git clone git://github.com/schacon/grit.git
-
 Üzerinde deðiþiklik yapmak için zaten olan "grit" isimli bir dosyayý "mygrit" dosyasýnýn içine çekmek için ;
  
-$ git clone git://github.com/schacon/grit.git mygrit
+$ git clone git://github.com/schacon/grit.git mygrit 
 
-Simdilik kullandýklarýmýz bunlar sanýyorum bir eksiklik olduysa eklersiniz...
+Simdilik kullandýklarýmýz bunlar sanýyorum bir eksiklik olduysa eklersiniz hatalarým varsa da affola ...
