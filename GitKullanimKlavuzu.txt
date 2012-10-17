@@ -1,14 +1,28 @@
+Öncelikle projenin buluncuðu dosyaya geliyoruz.
+Örneðin eðer masaüstündeyse ;
+
+$ cd desktop/copm332
+
+
 Bir git depolama alaný almak için ;
 
 $ git init
 
-Takip etmek istediðiniz dosyalarý belirtmek için ;
+Hangi dosyalarda deðiþiklik yapýlmýþ görmek için ;
 
-$ git add README
+$ git status 
+
+Takip etmek istediðiniz dosyalarý belirtmek için (*ve deðiþiklik yapýlan dosyalarý güncellemek için) ;
+
+$ git add README*
 
 README dosyasýnýn içinde deðiþiklik yapmak için ;
 
-$ git commit -m 'initial project version' (initial project version yazmýþ oluyoruz içine.)
+$ git commit -m(mesaj anlamýna geliyor.) 'initial project version' (initial project version yazmýþ oluyoruz içine.)
+
+***-m(mesaj anlamýna geliyor.)
+***
+
 
 Üzerinde deðiþiklik yapmak için zaten olan "grit" isimli bir dosyayý çekmek için ;
 
@@ -18,4 +32,4 @@ $ git clone git://github.com/schacon/grit.git
  
 $ git clone git://github.com/schacon/grit.git mygrit
 
-Devam edecek... :)
+Simdilik kullandýklarýmýz bunlar sanýyorum bir eksiklik olduysa eklersiniz...
