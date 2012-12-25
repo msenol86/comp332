@@ -1,0 +1,53 @@
+Selection Screen XML
+________________________________________________________________________________
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_gravity="start"
+        android:layout_weight="9.77"
+        android:onClick="button2Clicked"
+        android:text="Turkish->English" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:layout_gravity="end"
+        android:layout_weight="1"
+        android:onClick="button1Clicked"
+        android:text="English->Turkish" />
+
+</LinearLayout>
+
+
+Voice Recognition Screen XML
+___________________________________________________
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/speakbutton"
+        android:onClick="speakbuttonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:text="Dictionary for Visually Impaired People \n\n\n\n\n Click Anywhere To Translate" />
+    
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.06" />
+ 
+ </LinearLayout>
